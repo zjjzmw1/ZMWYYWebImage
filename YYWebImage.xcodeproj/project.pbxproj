@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDF542C0E33B38CA888128D3 /* libPods-YYWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAFAE6A9F2F6E6A8CC4137C /* libPods-YYWebImage.a */; };
 		FF23BE2E1D49BFBF00F92EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23BE2D1D49BFBF00F92EA0 /* main.m */; };
 		FF23BE311D49BFBF00F92EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23BE301D49BFBF00F92EA0 /* AppDelegate.m */; };
 		FF23BE341D49BFBF00F92EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23BE331D49BFBF00F92EA0 /* ViewController.m */; };
 		FF23BE371D49BFBF00F92EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF23BE351D49BFBF00F92EA0 /* Main.storyboard */; };
 		FF23BE391D49BFBF00F92EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF23BE381D49BFBF00F92EA0 /* Assets.xcassets */; };
 		FF23BE3C1D49BFBF00F92EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF23BE3A1D49BFBF00F92EA0 /* LaunchScreen.storyboard */; };
+		FF23BE451D49C04E00F92EA0 /* YYWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23BE441D49C04E00F92EA0 /* YYWebImageViewController.m */; };
+		FF23BE481D49C0A600F92EA0 /* YYWebImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23BE471D49C0A600F92EA0 /* YYWebImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAFAE6A9F2F6E6A8CC4137C /* libPods-YYWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEF17A0F62A91AB1D3F71DC /* Pods-YYWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYWebImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYWebImage/Pods-YYWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		F786E69AA4E7DE897D9F13DA /* Pods-YYWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYWebImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYWebImage/Pods-YYWebImage.release.xcconfig"; sourceTree = "<group>"; };
 		FF23BE291D49BFBF00F92EA0 /* YYWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF23BE2D1D49BFBF00F92EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF23BE2F1D49BFBF00F92EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		FF23BE381D49BFBF00F92EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF23BE3B1D49BFBF00F92EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF23BE3D1D49BFBF00F92EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF23BE431D49C04E00F92EA0 /* YYWebImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageViewController.h; sourceTree = "<group>"; };
+		FF23BE441D49C04E00F92EA0 /* YYWebImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageViewController.m; sourceTree = "<group>"; };
+		FF23BE461D49C0A600F92EA0 /* YYWebImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageCell.h; sourceTree = "<group>"; };
+		FF23BE471D49C0A600F92EA0 /* YYWebImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF542C0E33B38CA888128D3 /* libPods-YYWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		114DDE08EF2680F32283596C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF17A0F62A91AB1D3F71DC /* Pods-YYWebImage.debug.xcconfig */,
+				F786E69AA4E7DE897D9F13DA /* Pods-YYWebImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDBDB0B435ACD7F342C26655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAFAE6A9F2F6E6A8CC4137C /* libPods-YYWebImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF23BE201D49BFBF00F92EA0 = {
 			isa = PBXGroup;
 			children = (
 				FF23BE2B1D49BFBF00F92EA0 /* YYWebImage */,
 				FF23BE2A1D49BFBF00F92EA0 /* Products */,
+				114DDE08EF2680F32283596C /* Pods */,
+				CDBDB0B435ACD7F342C26655 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +92,10 @@
 				FF23BE301D49BFBF00F92EA0 /* AppDelegate.m */,
 				FF23BE321D49BFBF00F92EA0 /* ViewController.h */,
 				FF23BE331D49BFBF00F92EA0 /* ViewController.m */,
+				FF23BE431D49C04E00F92EA0 /* YYWebImageViewController.h */,
+				FF23BE441D49C04E00F92EA0 /* YYWebImageViewController.m */,
+				FF23BE461D49C0A600F92EA0 /* YYWebImageCell.h */,
+				FF23BE471D49C0A600F92EA0 /* YYWebImageCell.m */,
 				FF23BE351D49BFBF00F92EA0 /* Main.storyboard */,
 				FF23BE381D49BFBF00F92EA0 /* Assets.xcassets */,
 				FF23BE3A1D49BFBF00F92EA0 /* LaunchScreen.storyboard */,
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF23BE401D49BFC000F92EA0 /* Build configuration list for PBXNativeTarget "YYWebImage" */;
 			buildPhases = (
+				DC88DF52E1990770B7B8B995 /* [CP] Check Pods Manifest.lock */,
 				FF23BE251D49BFBF00F92EA0 /* Sources */,
 				FF23BE261D49BFBF00F92EA0 /* Frameworks */,
 				FF23BE271D49BFBF00F92EA0 /* Resources */,
+				38F38449D87B0CFAE3CDF308 /* [CP] Embed Pods Frameworks */,
+				3A8413843DA5490E4D398DD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +181,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38F38449D87B0CFAE3CDF308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYWebImage/Pods-YYWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8413843DA5490E4D398DD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYWebImage/Pods-YYWebImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC88DF52E1990770B7B8B995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF23BE251D49BFBF00F92EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,6 +237,8 @@
 				FF23BE341D49BFBF00F92EA0 /* ViewController.m in Sources */,
 				FF23BE311D49BFBF00F92EA0 /* AppDelegate.m in Sources */,
 				FF23BE2E1D49BFBF00F92EA0 /* main.m in Sources */,
+				FF23BE481D49C0A600F92EA0 /* YYWebImageCell.m in Sources */,
+				FF23BE451D49C04E00F92EA0 /* YYWebImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,9 +348,11 @@
 		};
 		FF23BE411D49BFC000F92EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEF17A0F62A91AB1D3F71DC /* Pods-YYWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YYWebImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YYWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +361,11 @@
 		};
 		FF23BE421D49BFC000F92EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F786E69AA4E7DE897D9F13DA /* Pods-YYWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YYWebImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YYWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +391,7 @@
 				FF23BE421D49BFC000F92EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

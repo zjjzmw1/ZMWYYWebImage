@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-YYWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>873BB0BCD69741314E3A4AAC544A953D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C23CBF5DEDDF992F9D15FA61299CCDB4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7F49DE966D078BED290E043457D06C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFD176AF31FDFF78BBE805C72A697DB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
